@@ -1,0 +1,1362 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-08 00:43:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-09 17:07:10
+*/
+
+*{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.16rem;
+    font-family: "苹方","微软雅黑", "Helvetica";
+    color: #999;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+}
+a{
+	text-decoration: none;
+}
+/*头部开始  */
+.header{
+	width: 100%;
+	overflow: hidden;
+	background: #007be3;
+	top: 0;
+	left: 0;
+    position: absolute;
+    z-index: 100000000;	
+}
+.header-1{
+	width: 100%;
+	height: 0.89rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.header-1 a{
+	width: 20%;
+	font-size: 0.32rem;
+	text-align: center;
+	color: white;
+}
+
+/* banner开始 */
+
+.banner{
+	background: url(../img/phpbanner.png) center center no-repeat;
+	background-size: 100%;
+	height: 5rem;
+	margin-top: 0.89rem;
+	position: relative;
+}
+.banner a {
+    display: block;
+    width: 2.1rem;
+    height: 0.56rem;
+    background: url(../img/phpbtn.png) center center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 2.7rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.56rem;
+    font-size: 0.28rem;
+}
+.f1{
+	
+	width: 100%;
+	
+}
+.f1 h2 {
+    width: auto;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+   position: absolute;
+    left: 2.8rem;
+    z-index: 10;
+}
+.f1 h2 span {
+    font-weight: 400;
+
+}
+.uiH2 {
+    width: 1.08rem;
+    height: 0.84rem;
+  	position: absolute;
+    top: 0.3rem;
+    left: 2.2rem;
+    background: url(../img/titleL.png) center center no-repeat;
+    background-size: 100%;
+    z-index: 0;
+}
+.titlenum1 {
+    background: url(../img/phptitle1.png) center center no-repeat;
+    background-size: 100%;
+}
+.titlenum {
+    width: 0.66rem;
+    height: 0.6rem;
+    position: absolute;
+    left: 1.9rem;
+    top: 0.5rem;
+}
+.uiH2R {
+    width: 1.14rem;
+    height: 0.06rem;
+	position: absolute;
+    right: 2.5rem;
+    top:1.1rem;
+    background: url(../img/titleR.png) center center no-repeat;
+    background-size: 100%;
+}
+.ui1H {
+    width: auto;
+    height: 1.3rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    padding: 0.2rem 0;
+    margin: 0 auto;
+    padding-bottom: 0.1rem;
+    position: relative;
+   
+}
+.bj1{
+	 background: #F5F6FA;
+	 width: 100%;
+
+}
+.ui1con{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+   
+}
+.ui1cont{
+    height: 4.2rem;
+    overflow: hidden;
+    margin-top: 0.06rem;
+   /*  padding-bottom: 0.2rem; */
+    margin: 0 auto;
+    width: 96%;
+}
+.webdy{
+    width: 93%;
+    height: auto;
+    overflow: hidden;
+    padding: 0rem 3%;
+    padding-top: 0.44rem;
+    border: 1px solid #1bbf99;
+    border-top: 0;
+}
+.webdy p{
+    color: #333;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    margin-top: 0.16rem;
+}
+.php1d1 {
+    width: 98%;
+    height: 0.06rem;
+    border: 1px solid #1bbf99;
+    border-top: 0;
+    margin: 0 auto;
+ 
+}
+.php1d2 {
+    width: 94%;
+}
+
+
+/* f2开始 */
+.f2{
+	width: 100%;
+	/* height: 15rem; */
+}
+.f2 h2 {
+    width: auto;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+   position: absolute;
+    left: 2.8rem;
+    z-index: 10;
+}
+.f2 h2 span {
+    font-weight: 400;
+
+}
+.titlenum2 {
+    background: url(../img/phptitle2.png) center center no-repeat;
+    background-size: 100%;
+}
+.ui2H {
+    width: auto;
+    height: 1.3rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    padding: 0.2rem 0;
+    margin: 0 auto;
+    padding-bottom: 0.1rem;
+    position: relative;
+   
+}
+.f2 .l6{
+	padding-top: 0.2rem;
+	background: #F5F6FA;
+	padding-bottom: 0.2rem;
+}
+.f2 .l6 ul{
+	width: 92%;
+	height: 2.1rem;
+	/* background: yellow; */
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0 4% 0.2rem;
+
+}
+.f2 .l6 li{
+	width: 31%;
+	height: 2.1rem;
+	/* background: red; */
+	float: left;
+}
+.w-a1{
+	background: url(../img/UI/1.png) center center no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 0.85rem;
+	display: block;
+}
+.w-1{
+	background: url(../img/UI/ftwx2.png) center center no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 0.85rem;
+	/* background: blue; */
+	display: block;
+}
+.w-2{
+	background: url(../img/UI/ftwx3.png) center center no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 0.85rem;
+	/* background: blue; */
+	display: block;
+}
+.w-3{
+	background: url(../img/UI/ftwx4.png) center center no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 0.85rem;
+	/* background: blue; */
+	display: block;
+}
+.w-4{
+	background: url(../img/UI/ftwx5.png) center center no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 0.85rem;
+	/* background: blue; */
+	display: block;
+}
+.w-5{
+	background: url(../img/UI/ftwx6.png) center center no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 0.85rem;
+	/* background: blue; */
+	display: block;
+}
+.w-a1 .w-ss{
+	color: white;
+	font-size: 0.24rem;
+	font-weight: 600;
+	line-height: 0.85rem;
+	padding-left: 0.7rem;
+}
+.biankuang{
+	color: #333;
+	font-size: 0.22rem;
+	display: block;
+	margin: 0 auto;
+	width: 98%;
+	height: 1.25rem;	
+	border: 0.01rem dashed #F2A111;
+/* 	display: none; */
+}
+.w-a1:hover.biankuang{
+	display: block;
+}
+.bk1{
+	border: 0.01rem dashed #2F90DA;
+}
+.bk2{
+	border: 0.01rem dashed #F87844;
+}
+.bk3{
+	border: 0.01rem dashed #1BBF99;
+}
+.bk4{
+	border: 0.01rem dashed #F8CE68;
+}
+.bk5{
+	border: 0.01rem dashed #C16BBB;
+}
+.biankuang p{
+	color: #333;
+	font-size: 0.22rem;
+	display: block;
+	text-align: center;
+padding-top: 0.15rem; 
+
+}
+.f3{
+	width: 100%;
+	margin: 0 auto;
+}
+.f3 h2 {
+    width: auto;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+   position: absolute;
+    left: 2.8rem;
+    z-index: 10;
+}
+.f3 h2 span {
+    font-weight: 400;
+
+}
+.titlenum3 {
+    background: url(../img/phptitle3.png) center center no-repeat;
+    background-size: 100%;
+}
+.ui3H {
+    width: auto;
+    height: 1.3rem;
+    overflow: hidden;
+    background: #fff;
+    /* box-shadow: 0px 4px 4px rgba(0,0,0,0.2); */
+    padding: 0.2rem 0;
+    margin: 0 auto;
+    padding-bottom: 0.1rem;
+    position: relative;
+   
+}
+.f3-1{
+	background: #1b1d32;
+	margin: 0 auto;
+	padding-bottom: 0.3rem;
+	/* margin-top: 0.3rem; */
+}
+.f3-1 h1{
+	width: 3.5rem;
+	font-size: 0.3rem;
+	color: #00c298;
+	text-align: center;
+	line-height: 0.6rem;
+	height: 0.6rem;
+	border-bottom: 0.02rem solid #fff;
+
+	margin:  0 auto;
+	 padding: 0.3rem 0 0;
+}
+.f3 .f3-i1{
+	display: block;
+	margin:  0 auto;
+	height: 0.02rem;
+	width: 3.5rem;
+	border-bottom: 1px dashed #fff;
+	margin-top: 0.08rem;
+}
+.f3 .gongzi{
+	/* background: url(../img/webbfb.png) center center no-repeat;
+	background-size: 100%; */
+	width: 98%;
+   /*  height: 4.17rem; */
+    margin: 0 auto;
+   /*  position: relative; */
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 0.3rem 1%;
+}
+.gongzi .z2{
+	width: 45.5%;
+	border: 0.01rem solid white;
+	padding: 0.05rem;
+	/* background: pink; */
+
+}
+.gongzi img{
+	width: 102%;
+    height: 2.2rem;
+}
+/* .f3 .pp{
+	margin: 0 auto;
+	color: white;
+	font-size: 0.26rem;
+	text-align: center;
+	padding-bottom: 0.2rem;
+} */
+
+.pp{
+	width: 3.40rem;
+   /*  height: 1.42rem; */
+    border-top: 1px solid #fff;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.3rem;
+    color: #fff;
+    padding: 0.2rem 0rem;
+    letter-spacing: -0.8px;
+}
+.pp1{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.26rem;
+    color: #fff;
+    margin-top: 0.2rem;
+}
+.pp1 span{
+	color: #e47749
+}
+.btn1 {
+	width: 40%;
+	margin: 0 auto;
+	padding:  0.1rem 0 0;
+}
+.btn1 a{
+	background: url(../img/UI/btn.png) center center no-repeat;
+	background-size: 100%;
+	display: block;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.3rem;
+	height: 1rem;
+	color: white;
+
+}
+
+
+/* f4 */
+.f4{
+	width: 100%;
+	margin: 0 auto;
+}
+.f4 h2 {
+    width: auto;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+   position: absolute;
+    left: 2.8rem;
+    z-index: 10;
+}
+.f4 h2 span {
+    font-weight: 400;
+
+}
+.titlenum4 {
+    background: url(../img/phptitle4.png) center center no-repeat;
+    background-size: 100%;
+}
+.ui4H {
+    width: auto;
+    height: 1.3rem;
+    overflow: hidden;
+    background: #fff;
+   	box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    padding: 0.2rem 0;
+    margin: 0 auto;
+    padding-bottom: 0.1rem;
+    position: relative;
+   
+}
+ .bbjj{
+ 	 background: #F5F6FA;
+ 	 padding-bottom: 0.3rem;
+
+ }
+ .ui3con {
+    width: 100%;
+    /* height: 7rem; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+   /*  margin-top: 0.4rem; */
+   
+}
+
+.stu_lists {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+.title_name {
+    width: 100%;
+    height: 0.6rem;
+    margin: 0 auto;
+}
+.title_name p {
+    color: #fff;
+    font-size: 0.26rem;
+    line-height: 0.6rem;
+    height: 0.6rem;
+    border-radius: 0.1rem 0.1rem 0 0;
+    background: #40abfd;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 25%;
+}
+.title_name p:nth-child(2) {
+    width: 25%;
+    background: #219eff;
+}
+.title_name p {
+    color: #fff;
+    font-size: 0.26rem;
+    line-height: 0.6rem;
+    height: 0.6rem;
+    border-radius: 0.1rem 0.1rem 0 0;
+    background: #40abfd;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.title_name p:nth-child(3) {
+    width: 50%;
+    background: #118ded;
+}
+.big_box{
+	height: 3.5rem;
+  	margin:  0 auto;
+    overflow: hidden;
+   border: 0.01rem solid #1875ff;
+}
+.big_box .juti{
+	height: 20%;
+	/* background: red; */
+	line-height: 0.7rem;
+	text-align: center;
+}
+.j1{
+background: #EEEEEE;
+}
+.big_box p{
+    height: 0.7rem;
+    overflow: hidden;
+    float: left;
+    font-size: 0.1rem;
+    color: #333;
+    line-height: 0.7rem;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+   
+}
+.big_box .mingzi{
+	/* margin-left: 0.4rem; */
+	width: 25%;
+}
+.big_box .rmb{
+	color: #feaf34;
+	/* margin-left: 0.6rem; */
+	width: 25%;
+}
+.big_box .daiyu{
+	width: 50%;
+	float: right; 
+}
+.f5 h2 {
+    width: auto;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+   position: absolute;
+    left: 2.8rem;
+    z-index: 10;
+   /*   */
+}
+.f5 h2 span {
+    font-weight: 400;
+
+}
+.titlenum5 {
+    background: url(../img/phptitle5.png) center center no-repeat;
+    background-size: 100%;
+}
+.sekuai{
+	background: #1b1d32;
+	width: 100%;
+	height: 11rem;
+}
+.ui4con {
+    position: relative;
+    margin-top: 0.6rem;
+    height: 10rem;
+}
+.ui1con {
+   /*  width:96rem; */
+ /*    height:5rem; */
+    margin: 0 auto;
+}
+.web4ul1 {
+    width: 100%;
+    height: 100%;
+   /*  overflow: hidden; */
+}
+.ui4con li {
+    width: 100%;
+    height: 1.56rem;
+   
+    padding-bottom: 0;
+}
+.ui41{
+		padding-top: 0.6rem;
+}
+.php4l{
+    width: 0.54rem;
+    height: 100%;
+    float: left;
+    padding-left: 0.54rem;
+}
+.phpxuhao{
+    width: 0.54rem;
+    height: 0.54rem;
+    border: 2px solid #ffd300;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.3rem;
+    color: #fff;
+}
+.phpxuhao{
+    width: 0.54rem;
+    height: 0.54rem;
+    border: 0.02rem solid #ffd300;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.3rem;
+    color: #fff;
+}
+.php4line{
+    width: 0.01rem;
+    height: 0.98rem;
+    background: #ffd300;
+   /*  margin: 0 auto; */
+    margin-left: 0.3rem;
+}
+.php4r {
+    width: 5.5rem;
+    height: 1.52rem;
+    float: left;
+   	padding-left: 0.3rem;
+}
+.php4rcon {
+    width: 100%;
+    height: 100%;
+}
+.ui41 span {
+    font-size: 0.28rem;
+    color: #ffd300;
+    display: block;
+}
+.web4ul1 li p {
+    height: auto;
+    overflow: hidden;
+    margin-top: 0.1rem;
+    font-size: 0.24rem;
+    color: #fff;
+    line-height: 0.34rem;
+    padding: 0.1rem 0;
+    text-align: justify;
+    -moz-text-align-last: justify;
+    -webkit-text-align-last: justify;
+    border-top: 0.01remoo dashed #ffd300;
+    display: block;
+}
+.ui41 p {
+    border-top: 1px dashed #ffd300;
+}
+.phpxuhao2 {
+    border: 2px solid #dd534e;
+}
+.ui42 p {
+    border-top: 1px dashed #dd534e;
+}
+
+
+.ui42 span {
+    font-size: 0.28rem;
+    color: #dd534e;
+}
+.ui42  .php4r p {
+    border-top: 1px dashed #dd534e;
+}
+.phpxuhao3 {
+    border: 2px solid #87bf7f;
+}
+.ui43 p {
+    border-top: 1px dashed #87bf7f;
+}
+.ui43 span {
+    font-size: 0.28rem;
+    color: #87bf7f;
+}
+.ui43 .php4r p {
+    border-top: 1px dashed #87bf7f;
+}
+.phpxuhao4{
+    border: 2px solid #1fa4db;
+}
+.ui44 p {
+    border-top: 1px dashed #1fa4db;
+}
+.ui44 span {
+    font-size: 0.28rem;
+    color: #1fa4db;
+}
+.ui44 .php4r p {
+    border-top: 1px dashed #1fa4db;
+}
+.phpxuhao5 {
+    border: 2px solid #f6ce64;
+}
+.ui45 p {
+    border-top: 1px dashed #f6ce64;
+}
+.ui45 span {
+    font-size: 0.28rem;
+    color: #f6ce64;
+}
+.ui45 .php4r p {
+    border-top: 1px dashed #f6ce64;
+}
+.phpxuhao6 {
+    border: 2px solid #a86baa;
+}
+.ui46 p {
+    border-top: 1px dashed #a86baa;
+}
+.ui46 span {
+    font-size: 0.28rem;
+    color: #a86baa;
+}
+.ui46 .php4r p {
+    border-top: 1px dashed #a86baa;
+}
+
+
+/* f6 */
+.f6{
+	width: 100%;
+	margin: 0 auto;
+	/* height: 10rem; */
+	position: relative;
+}
+.f6 h2{
+    width: auto;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+   position: absolute;
+    left: 2.8rem;
+    z-index: 10;
+}
+.f6 h2 span{
+    font-weight: 400;
+
+}
+.titlenum6{
+    background: url(../img/phptitle6.png) center center no-repeat;
+    background-size: 100%;
+}
+.ui6H {
+    width: auto;
+    height: 1.3rem;
+    overflow: hidden;
+    background: #fff;
+   	box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    padding: 0.2rem 0;
+    margin: 0 auto;
+    padding-bottom: 0.1rem;
+    position: relative;
+   
+} 
+.f6-1{
+	width: 100%;
+	height: 0.8rem;
+	 margin-top: 0.6rem;
+	padding: 0.3rem 0rem; */
+}
+.phpzw1 {
+    width: 2.43rem;
+    height: 100%;
+    background: url(../img/phpzw1.png) center center no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-left: 0.5rem;
+   
+}
+.phpzw1 span{
+	text-align: center;
+    line-height: 0.9rem;
+    color: #333;
+    font-size: 0.24rem;
+    margin-left: 0.9rem;
+}
+.phpzw2 {
+    width: 2.43rem;
+    height: 100%;
+    background: url(../img/phpzw2.png) center center no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-left:1rem;
+   
+}
+.phpzw2 span{
+	text-align: center;
+    line-height: 0.9rem;
+    color: #333;
+    font-size: 0.24rem;
+    margin-left: 0.8rem;
+}
+.phpzw3{
+    width: 2.43rem;
+    height: 0.8rem;
+    background: url(../img/phpzw3.png) center center no-repeat;
+    background-size: 100%;
+    margin:   0 auto;   
+}
+.phpzw4 {
+    width: 2.43rem;
+    height: 100%;
+    background: url(../img/phpzw4.png) center center no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-left: 0.5rem;
+   
+}
+.phpzw5 {
+    width: 2.43rem;
+    height: 100%;
+    background: url(../img/phpzw5.png) center center no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-left:1rem;
+}
+.phpzw6 {
+    width: 2.7rem;
+     height: 0.8rem;
+    background: url(../img/phpzw6.png) center center no-repeat;
+    background-size: 100%;
+    /* margin-left: 0.5rem; */
+    margin:  0 auto;
+   
+}
+.f6-3{
+	width: 100%;
+	height: 0.8rem;
+	 margin-top: 0.3rem;
+	 padding: 0rem 0rem 0.3rem; */
+}
+.phpzw5 span{
+	text-align: center;
+    line-height: 0.9rem;
+    color: #333;
+    font-size: 0.24rem;
+    margin-left: 0.8rem;
+    /* line-height: 1.14rem;
+    padding-left: 0.88rem; */
+}
+.phpzw4 span{
+	text-align: center;
+    line-height: 0.9rem;
+    color: #333;
+    font-size: 0.24rem;
+    margin-left: 0.8rem;
+}
+.phpzw3 span{
+	text-align: center;
+    line-height: 0.9rem;
+    color: #333;
+    font-size: 0.24rem;
+  margin-left: 0.8rem;
+    /* line-height: 1.14rem;
+    padding-left: 0.88rem; */
+}
+.phpzw6 span{
+	text-align: center;
+    line-height: 0.9rem;
+    color: #333;
+   
+    font-size: 0.24rem;
+  margin-left: 0.8rem;
+  text-align: center;
+    /* line-height: 1.14rem;
+    padding-left: 0.88rem; */
+}
+.f7{
+	width: 100%;
+	margin: 0 auto;
+	/* height: 10rem; */
+	position: relative;
+
+}
+.f7 h2{
+    width: auto;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+   position: absolute;
+    left: 2.8rem;
+    z-index: 10;
+}
+.f7 h2 span{
+    font-weight: 400;
+
+}
+.titlenum7{
+    background: url(../img/phptitle7.png) center center no-repeat;
+    background-size: 100%;
+}
+.ui7H {
+    width: auto;
+    height: 1.3rem;
+    overflow: hidden;
+    background: #fff;
+   /* 	box-shadow: 0px 4px 4px rgba(0,0,0,0.2); */
+    padding: 0.2rem 0;
+    margin: 0 auto;
+ /*    padding-bottom: 0.1rem; */
+    position: relative;
+   
+}
+.bj3{
+	background: #1B1D32;
+ /*    height: 11.8rem; */
+    width: 96%;
+    padding: 0.3rem 2% 0.3rem;
+  /*   margin-top: 0.3rem; */
+}
+.web5bot ul {
+    width: 80%;
+    /* height: 3.5rem; */
+    overflow: hidden;
+    /* margin: 0rem auto; */
+    margin-left: 0.8rem;
+    
+}
+.web5bot li {
+    width: 100%;
+    height: 0.58rem;
+    border-bottom: 1px dashed #FFD300;
+    overflow: hidden;
+    margin:  0 auto;
+}
+.web5bot li:last-child{
+    
+    border-bottom: 0px;
+    
+}
+.web5bot a {
+    display: block;
+    width: 70%;
+    height: 100%;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 0.3rem;
+    line-height: 0.7rem;
+}
+.web5bot {
+    width: 80%;
+ /*    height: 4.5rem; */
+    border: 1px solid #FFD300;
+    padding: 0 1%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 0.8rem;
+   /*  padding-bottom: 0.5rem; */
+
+}
+.web5btit {
+    width: 2.96rem;
+    height: 0.64rem;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: -0.32rem;
+    background: #FFD300;
+    overflow: hidden;
+}
+.web5tli {
+    width: 2.86rem;
+    height: 0.5rem;
+    margin: 0.05rem;
+    color: #1b1d32;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border: 1px dashed #fff;
+}
+
+.mm{
+	margin:  0 auto;
+	height: 2rem;
+	width: 2rem;
+	margin-top: 0.3rem;
+}
+.mm img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin:  0 auto;
+}
+.php6bot {
+    width: 1.87rem;
+    height: 3.22rem;
+    float: left;
+    background: url(../img/phpren.png) center center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    z-index: 20;
+    top: -0.09rem;
+    left: -0.9rem;
+}
+.btn11 {
+	width: 40%;
+	margin: 0 auto;
+	padding:  0.4rem 0 0;
+}
+.btn11 a{
+	background: url(../img/UI/btn.png) center center no-repeat;
+	background-size: 100%;
+	display: block;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.3rem;
+	height: 1rem;
+	color: white;
+
+}
+.f8{
+	width: 100%;
+	margin: 0 auto;
+	/* height: 10rem; */
+	position: relative;
+	background: #F5F6FA;
+}
+.f8 h2{
+    width: auto;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+   position: absolute;
+    left: 2.8rem;
+    z-index: 10;
+}
+.f8 h2 span{
+    font-weight: 400;
+
+}
+.titlenum8{
+    background: url(../img/phptitle8.png) center center no-repeat;
+    background-size: 100%;
+}
+.ui8H {
+    width: auto;
+    height: 1.3rem;
+    overflow: hidden;
+    background: #fff;
+   box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    padding: 0.2rem 0;
+    margin: 0 auto;
+    padding-bottom: 0.1rem;
+    position: relative;
+   
+}
+.f8 p{
+    width: 100%;
+    height: 0.85rem;
+    font-size: 0.3rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.8rem;
+}
+.today{
+	width: 80%;
+	margin: 0 auto;
+
+}
+.f8 .btn111 {
+	width: 40%;
+	margin: 0 auto;
+ padding:  0.1rem 0 ;
+	background: #F5F6FA;
+	margin-bottom: 0.1rem;
+	margin-top: 0.1rem;
+}
+.f8 .btn111 a{
+	 background: url(../img/UI/btn.png) center center no-repeat;
+	background-size: 100%;
+	display: block;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.3rem;
+	height: 1rem;
+	color: white;
+	margin-top: 1rem;
+}
+.input-text {
+    float: left;
+    color: #333;
+    font-size: 0.3rem;
+    background-size: 100%;
+    border: 0.01rem solid #ADF1FC;
+    outline: none;
+    width: 75%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    display: block;
+    padding-left: 0.09rem;
+    border-radius: 0.8rem;
+
+}
+.f8 .table_form li{
+    width: 100%;
+    font-size: 0.25rem;
+    color: #333;
+    text-align: center;
+    /* line-height:3rem; */
+    font-weight: 600;
+    padding:0 5%  0.3rem ;
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+}
+.f8 .table_form p{
+    width: 80%;
+    height: 0.5rem;
+    font-size: 0.25rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.5rem;
+    font-weight: 600;
+    display: block;
+    float: left;
+}
+.f8 .table_form span{
+    width: 5%;
+    height: 0.5rem;
+    font-size: 0.25rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.5rem;
+    font-weight: 600;
+     display: block;
+    float: left;
+    color: red;
+}
+.f8 .table_form .t-s2{
+    width: 15%;
+    height: 0.5rem;
+    font-size: 0.25rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.5rem;
+    font-weight: 600;
+     display: block;
+    float: left;
+}
+select{
+    float: left;
+    color: #333;
+    font-size: 0.3rem;
+    background-size: 100%;
+    border: 0.01rem solid #ADF1FC;
+    outline: none;
+    width: 75%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    display: block;
+    padding-left: 0.09rem;
+    border-radius: 0.8rem;
+
+}
+option{
+	color: #333;
+}
+.lr {
+    width: 100%;
+    height: 0.6rem;
+}
+.tea_copyright {
+    width: 100%;
+    height: 3.2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+    background: #F5F6FA;
+
+}
+.tea_copyright p{
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.tea_copyright .p33 {
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;   
+    display: block;
+}
+.contact{
+    width: 100%;
+    height: 0.9rem;
+    box-sizing: border-box;
+    background-color: #F5F6FA;
+    margin-top: 0.2rem;
+   position: absolute;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 0 0.08rem rgba(0,0,0,0.1);
+    z-index: 9999999999;
+}
+.contact .contact-list{
+    width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+}
+.contact a{
+    width: 30%;
+    height: 0.8rem;
+    float: left;
+}
+.contact a div{
+    width: 100%;
+    height: 100%;
+    font-size: 0.24rem;
+    color: #000;
+    text-align: left;
+    line-height: 0.9rem;
+    background: #e7e7e7;
+}
+.contact a div.part1 i{
+    background: url(../img/qq.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.contact a div i{
+    width: 0.32rem;
+    height: 0.32rem;
+   background: url(../img/shouye6.png) -1.6rem -4.4rem no-repeat; *
+    background-size: 2rem;
+    float: left;
+    line-height: 0.9rem;
+    margin-top: 0.28rem;
+    margin-left: 0.27rem;
+}
+.contact a div span{
+    float: left;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+}
+.contact .phone{
+    width: 40%;
+    height: 0.9rem;
+    position: relative;
+    z-index: 9999999999;
+    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+    margin-top: -0.1rem;
+}
+.contact a .part2{
+    background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 0.15rem #ff8d12;
+}
+.contact a .part2 i{
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(../img/shouye6.png) -1.6rem -4.78rem no-repeat;
+    background-size: 2rem;
+    display: inline-block;
+    line-height: 0.9rem;
+    margin-left: 0.45rem;
+}
+.contact a .part2 span{
+    float: left;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: white;
+}
+.contact a .part3{
+    text-align: right;
+    position: relative;
+}
+.contact a .part3 i{
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(../img/shouye6.png) -1.6rem -5.3rem no-repeat;
+    background-size: 2rem;
+    display: inline-block;
+    /* margin-left: 0.42rem; */
+}
+.contact a .part3 span{
+    float: left;
+    margin-left: 0.1rem;
+}

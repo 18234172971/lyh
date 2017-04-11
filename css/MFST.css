@@ -1,0 +1,420 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-10 21:13:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-11 00:55:51
+*/
+/*
+* @Author: Administrator
+* @Date:   2017-04-10 21:13:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-10 22:38:02
+*/
+/*
+* @Author: Administrator
+* @Date:   2017-04-10 21:12:11
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-10 22:17:47
+*/
+/*
+* @Author: Administrator
+* @Date:   2017-04-09 18:43:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-10 19:59:38
+*/
+/*
+* @Author: Administrator
+* @Date:   2017-04-09 18:43:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-09 21:04:25
+*/
+/*
+* @Author: Administrator
+* @Date:   2017-04-09 18:43:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-09 21:01:47
+*/
+*{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.16rem;
+    font-family: "苹方","微软雅黑", "Helvetica";
+    color: #999;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+}
+a{
+	text-decoration: none;
+}
+/*头部开始  */
+.header{
+	width: 100%;
+	overflow: hidden;
+	background: #007be3;
+	top: 0;
+	left: 0;
+    position: absolute;
+    z-index: 100000000;	
+}
+.header-1{
+	width: 100%;
+	height: 0.89rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.header-1 a{
+	width: 20%;
+	font-size: 0.32rem;
+	text-align: center;
+	color: white;
+}
+.banner{
+	background: url(../img/banner1.jpg) center center no-repeat;
+	background-size: 100%;
+	height: 4.3rem;
+	/* margin-top: 0.89rem; */
+}
+.content{
+	width: 100%;
+	/* height: 12rem; */
+	/* padding-bottom: 0.8rem; */
+	background: #F5F5F5;
+}
+.first{
+	padding: 0.2rem 0.2rem ;
+	color: black;
+	font-size: 0.25rem;
+	font-weight: bold;
+}
+.first .ppp{
+    padding-bottom: 0.25rem;
+    padding: 0.2rem 0;
+    color: #494747;
+}
+/* .first p{
+	width: 95%;
+	line-height: 1.5;
+    color: #333;
+    letter-spacing: 1px;
+     padding: 0.4rem 0.24rem 0.28rem;
+} */
+.n1{
+	width: 100%;
+    background-color: #ffffff;
+   padding:0.06rem 0.2rem 0.2rem 0.24rem;
+    border-bottom: 0.03rem solid #f5f6fa;
+    box-sizing: border-box;
+    /* color: #333; */
+    font-family: 微软雅黑, sans-serif;
+    font-size: 0.24rem;
+    letter-spacing: 0.02rem;
+    line-height: 0.43rem;
+    height: 19.5rem;
+}
+.szh-limodel{
+
+}
+
+.szh-box-title {
+	/* padding: 0.2rem 0.2rem 0rem 0.24rem;  */
+    width: 95%;
+    height: 1.6rem;
+    margin:  0 auto;
+    text-align: center;
+}
+.szh-box-title h1{
+    width: 100%;
+    text-align: center;
+    height: 0.6rem;
+    letter-spacing: 1px;
+    font-size: 0.2rem;
+    /* line-height: 0.2rem; */
+    margin:  0 auto;
+   /*  padding-bottom: 0.25rem; */
+}
+.xian{
+	width: 0.8rem;
+    height: 1px;
+    display: block;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    background: #666;
+    /* padding: 0.2rem 0; */
+}
+.szh-1{
+	width: 100%;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.2rem;
+    margin-top: 0.4rem;
+    margin-right: 0.2rem;
+    color: #999;
+}
+.szh-content {
+    font-size: 0.26rem;
+    color: #666;
+}
+.szh-p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.3rem;
+}
+.p-inner {
+    width: 100%;
+    height: auto;
+    line-height: 0.4rem;
+    text-align: left;
+    margin-bottom: 0.2rem;
+    color: #999;
+
+}
+.szh-table {
+    width: 100%;
+    height: 1.78rem;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    margin-bottom: 0.25rem;
+    position: relative;
+    overflow: hidden;
+}
+.szh-table-line {
+    position: absolute;
+    width: 100%;
+    height: 0.01rem;
+    /* background: #666; */
+    left: 0;
+    top: 0.5rem;
+}
+.szh-td3 {
+    width: 1.5rem;
+}
+.szh-td {
+    width: 1.2rem;
+    height: 100%;
+    /* padding: 0 0.2rem; */
+    float: left;
+}
+.szh-td1 {
+    width: 2.8rem;
+}
+.szh-td2 {
+    width: 2.6rem;
+}
+.szh-td-top {
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.szh-td-top span {
+    font-size: 0.26rem;
+    color: #999;
+}
+.szh-td-bottom {
+    width: 100%;
+    overflow: hidden;
+    height: 1.4rem;
+    padding-top: 0.1rem;
+    text-align: left;
+}
+.szh-table .szh-td-bottom p {
+    line-height: 0.5rem;
+    text-transform: uppercase;
+}
+.szh-image {
+    width: 5.4rem;
+    height: 1.8rem;
+    margin: 0 auto;
+    margin-bottom: 0.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.szh-image img {
+   width: 2.2rem;
+   height: 1.8rem;
+}
+.szh-image .iii{
+   margin-right: 0.25rem;
+}
+.szh-liu {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 0.26rem;
+    color: #787878;
+}
+.szh-liuinner1 {
+    border-top: 1px solid #666;
+    height: 1.5rem;
+}
+.szh-liuinner {
+    width: 100%;
+    height: 1.5rem;
+    border-bottom: 1px solid #666;
+}
+.szh-num {
+    width: 0.8rem;
+    height: 100%;
+    margin-left: 0.4rem;
+    line-height: 1.10rem;
+    text-align: center;
+    float: left;
+    font-size: 0.5rem;
+    font-weight: 200;
+}
+.szh-tel {
+    width: auto;
+    float: left;
+    height: 100%;
+    line-height: 1.10rem;
+    margin-left: 0.25rem;
+}
+.szh-buzhou {
+    width: 2.4rem;
+    height: 0.5rem;
+    float: left;
+    padding: 0.15rem 0;
+    line-height: 0.25rem;
+    margin-left: 0.2rem;
+}
+.szh-buzhou p {
+    margin-bottom: 0.06rem;
+    line-height: 0.36rem;
+}
+.szh-jiantou {
+    width: 0.25rem;
+    height: 0.49rem;
+    float: left;
+    margin: 0.48rem 0;
+    background: url(../img/szh-jiantou.png) no-repeat;
+    background-size: 100%;
+}
+.tea_copyright {
+    width: 100%;
+    height: 2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+  /*   background: #F5F6FA;
+ */
+}
+.tea_copyright p{
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.tea_copyright .p33 {
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;   
+    display: block;
+}
+.contact{
+    width: 100%;
+    height: 0.9rem;
+    box-sizing: border-box;
+    background-color: #F5F6FA;
+    margin-top: 0.2rem;
+   	position: absolute;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 0 0.08rem rgba(0,0,0,0.1);
+    z-index: 9999999999;
+}
+.contact .contact-list{
+    width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+}
+.contact a{
+    width: 30%;
+    height: 0.8rem;
+    float: left;
+}
+.contact a div{
+    width: 100%;
+    height: 100%;
+    font-size: 0.24rem;
+    color: #000;
+    text-align: left;
+    line-height: 0.9rem;
+    background: #e7e7e7;
+}
+.contact a div.part1 i{
+    background: url(../img/qq.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.contact a div i{
+    width: 0.32rem;
+    height: 0.32rem;
+   background: url(../img/shouye6.png) -1.6rem -4.4rem no-repeat; *
+    background-size: 2rem;
+    float: left;
+    line-height: 0.9rem;
+    margin-top: 0.28rem;
+    margin-left: 0.27rem;
+}
+.contact a div span{
+    float: left;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+}
+.contact .phone{
+    width: 40%;
+    height: 0.9rem;
+    position: relative;
+    z-index: 9999999999;
+    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+    margin-top: -0.1rem;
+}
+.contact a .part2{
+    background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 0.15rem #ff8d12;
+}
+.contact a .part2 i{
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(../img/shouye6.png) -1.6rem -4.78rem no-repeat;
+    background-size: 2rem;
+    display: inline-block;
+    line-height: 0.9rem;
+    margin-left: 0.45rem;
+}
+.contact a .part2 span{
+    float: left;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: white;
+}
+.contact a .part3{
+    text-align: right;
+    position: relative;
+}
+.contact a .part3 i{
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(../img/shouye6.png) -1.6rem -5.3rem no-repeat;
+    background-size: 2rem;
+    display: inline-block;
+    /* margin-left: 0.42rem; */
+}
+.contact a .part3 span{
+    float: left;
+    margin-left: 0.1rem;
+}

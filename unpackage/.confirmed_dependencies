@@ -1,0 +1,150 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"img/banner.png",
+			"img/qq.png",
+			"img/shouye6.png",
+			"img/shouye_02.png",
+			"img/shouye_01.png",
+			"img/ufo.png",
+			"img/logo.png",
+			"js/rem.js",
+			"img/shouye_03.png",
+			"WEB.html",
+			"PHP.html",
+			"QZ.html"
+		],
+		"refer": [
+			"WEB.html",
+			"PHP.html",
+			"QZ.html"
+		]
+	},
+	"WEB.html": {
+		"resources": [
+			"img/UI/ftwx6.png",
+			"img/webbfb.png",
+			"img/web4back.png",
+			"img/web1lines.png",
+			"img/webkcback.png",
+			"img/UI/ftwx3.png",
+			"img/UI/1.png",
+			"img/web1back.png",
+			"img/xiaoren.png",
+			"img/UI/ftwx2.png",
+			"img/webbanner.png",
+			"css/WEB.css",
+			"img/UI/ftwx4.png",
+			"img/about_004.png",
+			"img/web1backs.png",
+			"img/ui1lines.png",
+			"img/UI/btn.png",
+			"img/UI/ftwx5.png",
+			"img/web4back2.png",
+			"RMWT.html"
+		],
+		"refer": [
+			"RMWT.html"
+		]
+	},
+	"RMWT.html": {
+		"resources": [
+			"img/hot_01.png",
+			"img/s2.png",
+			"img/s3.png",
+			"img/s4.png",
+			"img/banner1.jpg",
+			"img/s1.png",
+			"css/RMWT.css",
+			"MTBD.html",
+			"index.html"
+		],
+		"refer": [
+			"MTBD.html",
+			"index.html"
+		]
+	},
+	"MTBD.html": {
+		"resources": [
+			"img/media_line.png",
+			"img/media_icon.png",
+			"img/mtbd.jpg",
+			"css/MTBD.css",
+			"index.html",
+			"RMWT.html"
+		],
+		"refer": [
+			"index.html",
+			"RMWT.html"
+		]
+	},
+	"PHP.html": {
+		"resources": [
+			"css/PHP.css",
+			"img/phptitle4.png",
+			"img/phpzw3.png",
+			"img/phptitle6.png",
+			"img/titleL.png",
+			"img/phptitle3.png",
+			"img/phpzw2.png",
+			"img/titleR.png",
+			"img/phptitle8.png",
+			"img/phpbanner.png",
+			"img/phpzw4.png",
+			"img/phptitle1.png",
+			"img/phptitle2.png",
+			"img/bfb1.png",
+			"img/phpren.png",
+			"img/phpzw6.png",
+			"img/bfb2.png",
+			"img/phpzw5.png",
+			"img/phpbtn.png",
+			"img/phpzw1.png",
+			"img/phptitle5.png",
+			"img/phptitle7.png",
+			"MTBD.html"
+		],
+		"refer": [
+			"MTBD.html"
+		]
+	},
+	"QZ.html": {
+		"resources": [
+			"img/qzanniu.png",
+			"img/qztitleline.png",
+			"img/qzzw2.png",
+			"img/qzzw5.png",
+			"img/qzbanner.png",
+			"css/QZ.css",
+			"img/qzzw7.png",
+			"img/qzzw3.png",
+			"img/0.2.png",
+			"img/qztitleback.png",
+			"img/qzzw4.png",
+			"img/0.3.png",
+			"img/0.22.png",
+			"img/0.1.png",
+			"img/0.55.png",
+			"img/qzfw2.png",
+			"img/qzzw6.png",
+			"img/0.5.png",
+			"img/0.44.png",
+			"img/qzfw3.png",
+			"img/qzbili.png",
+			"img/qzfw4.png",
+			"img/qzfw6.png",
+			"img/qzzw1.png",
+			"img/0.33.png",
+			"img/0.11.png",
+			"img/0.66.png",
+			"img/qzfw5.png",
+			"img/0.6.png",
+			"img/qzfw1.png",
+			"img/qzyyk.png",
+			"img/qz1back.png",
+			"img/qzzw8.png",
+			"img/0.4.png"
+		]
+	}
+}
